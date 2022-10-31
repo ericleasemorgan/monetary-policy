@@ -5,3 +5,8 @@ corpus/splits
 tmp/*
 monetary-policy-documents
 policy
+etc/concordance.txt
+etc/kayle-liao.eml
+etc/stopwords-lexicon-count.eml
+etc/topics-monetarypolicy-96.numbers
+etc/topics-ppp-96.numbers
