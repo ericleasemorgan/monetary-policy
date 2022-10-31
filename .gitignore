@@ -2,3 +2,6 @@ x-*
 corpus/pdf
 corpus/txt
 corpus/splits
+tmp/*
+monetary-policy-documents
+policy
