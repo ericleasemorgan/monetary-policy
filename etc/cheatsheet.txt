@@ -1,0 +1,77 @@
+
+
+Becoming Self-Relieant
+======================
+
+This is a cheatsheet outlining how you can create your own time series
+data for Project Monetary Policy.
+
+First, you will need to log into the remote computer. Open your Terminal
+application and enter the following command:
+
+  ssh xliao@rdr-compute.crc.nd.edu
+
+You ought to be prompted for your NetID password. Enter it.
+
+Next, you need to change to the directory where your/our project is
+located. Use this command:
+
+  cd /shared/projects/monetary-policy
+  
+Third, whenever you cd ("change directories"), it is good idea to pwd
+("present working directory") to confirm your location:
+
+  pwd
+
+If the result is not "/shared/projects/monetary-policy", then you probably
+entered the cd command incorrectly.
+
+Fourth, it is then a good idea to see what content is in this directory,
+and you use the ls ("list") command, like this:
+
+  ls -l
+  
+You ought to see something like this:
+
+  total 24
+  drwxrwxr-x 2 emorgan campus   195 Oct 25 11:46 bin
+  drwxrwxr-x 6 emorgan campus    74 Oct 25 11:36 corpus
+  drwxrwxr-x 2 emorgan campus   276 Oct 25 11:50 etc
+  -rwxrwxr-x 1 emorgan campus 18092 Oct 25 11:26 LICENSE
+  -rwxrwxr-x 1 emorgan campus   708 Oct 25 11:43 README.md
+  drwxr-xr-x 2 xliao   campus    32 Oct 31 10:12 tmp
+
+These are all the files and directories of the project.
+
+To create your time series data, you first need to review your lexicon.
+You can do that like this:
+
+  cat ./etc/lexicon.txt
+
+Is it correct? If not, then you need to edit the lexicon.txt file. Use
+the nano command, and use the resulting prompts to edit, save, and quit
+the editing process:
+
+  nano ./etc/lexicon.txt
+  
+Once the lexicon is to your liking, then create the time series:
+
+  ./bin/count-lexicon.py 
+
+You ought to see a stream of CSV (comman-separated values )text. Run the
+command again, but this time save the stream to a file:
+
+  ./bin/./bin/count-lexicon.py  > ./tmp/time-series.csv
+  
+How do you get the file to your computer? Here is a way to send it to
+yourself via email:
+
+  echo "The time series is attached" | mailx -s "time series" -a ./tmp/time-series.csv xliao@nd.edu
+
+Go to the beginning until you are satisfied with the result.
+
+
+--
+Eric Lease Morgan <emorgan@nd.edu>
+October 31, 2022
+
