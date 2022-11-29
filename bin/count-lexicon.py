@@ -6,7 +6,7 @@
 # (c) University of Notre Dame; distributed under a GNU Public License
 
 # September 29, 2022 - first investigations
-# November  29, 2022 - took stopwords into account; change the value of WINDOW to adjust
+# November  29, 2022 - took stopwords into account and backed out relative scores
 
 
 # configure
@@ -79,8 +79,9 @@ for file in Path( TEXT ).glob( PATTERN ) :
 					count = count - 1
 					break
 				
-		# divide the count by the size of the given file to create relative counts
+		# divide the count by the size of the given file to create relative counts, not
 		weight = count / size
+		weight = count
 		
 		# update the row
 		row.append( weight )
