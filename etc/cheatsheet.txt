@@ -58,7 +58,7 @@ Once the lexicon is to your liking, then create the time series:
 
   ./bin/count-lexicon.py 
 
-You ought to see a stream of CSV (comman-separated values )text. Run the
+You ought to see a stream of CSV (comman-separated values) text. Run the
 command again, but this time save the stream to a file:
 
   ./bin/./bin/count-lexicon.py  > ./tmp/time-series.csv
@@ -69,7 +69,6 @@ yourself via email:
   echo "The time series is attached" | mailx -s "time series" -a ./tmp/time-series.csv xliao@nd.edu
 
 Go to the beginning until you are satisfied with the result.
-
 
 --
 Eric Lease Morgan <emorgan@nd.edu>
