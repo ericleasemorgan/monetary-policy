@@ -17,10 +17,10 @@ STOPWORDS = './etc/stopwords-lexicon.txt'
 WINDOW    = 80
 
 # require
-from pathlib import Path
-import pandas as pd
-import re
 from nltk.tokenize import word_tokenize
+from pathlib       import Path
+import pandas      as     pd
+import re
 
 # read and normalize the lexicon
 with open( LEXICON ) as handle : lexicon = handle.readlines()
@@ -81,7 +81,7 @@ for file in Path( TEXT ).glob( PATTERN ) :
 				
 		# divide the count by the size of the given file to create relative counts, not
 		weight = count / size
-		weight = count
+		#weight = count
 		
 		# update the row
 		row.append( weight )

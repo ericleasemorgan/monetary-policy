@@ -10,7 +10,7 @@
 
 
 # configure
-SPLITS          = './ppp/splits'
+SPLITS          = './corpus/splits'
 SPLITSPATTERN   = '*.txt'
 TSV             = './etc/metadata.tsv'
 NAMES           = [ 'id', 'author', 'title', 'begin', 'end', 'url', 'pdf' ]

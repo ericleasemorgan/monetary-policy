@@ -12,6 +12,7 @@
 TSV='./etc/metadata.tsv'
 PDF='./corpus/pdf'
 JOBS='./tmp/jobs.tsv'
+PROCESSES=5
 
 # make sane
 mkdir -p $PDF
@@ -36,5 +37,5 @@ cat $TSV | while read URI AUTHOR TITLE BEGIN END URL FILE; do
 done
 
 # do the work in parallel and done
-cat $JOBS | parallel
+cat $JOBS | parallel --jobs $PROCESSES
 exit

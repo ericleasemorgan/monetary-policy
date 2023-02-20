@@ -9,8 +9,8 @@
 
 
 # configure
-ORIGINALS=/home/emorgan/data/projects/monetary-policy/corpus/txt
-SPLITS=/home/emorgan/data/projects/monetary-policy/corpus/splits
+ORIGINALS=/shared/projects/liao-monetary_policy-2023/corpus/txt
+SPLITS=/shared/projects/liao-monetary_policy-2023/corpus/splits
 
 # initialize
 rm -rf $SPLITS

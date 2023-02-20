@@ -1,0 +1,90 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd" ID="P0b002ee1a14b4945">
+<name type="corporate">
+ <namePart>United States Government Publishing Office</namePart>
+ <role>
+  <roleTerm authority="marcrelator" type="text">publisher</roleTerm>
+  <roleTerm authority="marcrelator" type="code">pbl</roleTerm>
+</role>
+ <role>
+  <roleTerm authority="marcrelator" type="text">distributor</roleTerm>
+  <roleTerm authority="marcrelator" type="code">dst</roleTerm>
+</role>
+</name>
+<name type="corporate">
+ <namePart>United States</namePart>
+ <namePart>National Archives and Records Administration</namePart>
+ <namePart>Federal Register Office</namePart>
+ <role>
+  <roleTerm authority="marcrelator" type="text">author</roleTerm>
+  <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+</role>
+ <description>Government Organization</description>
+</name>
+<typeOfResource>text</typeOfResource>
+<genre authority="marcgt">government publication</genre>
+<language>
+ <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+</language>
+<extension>
+ <collectionCode>PPP</collectionCode>
+ <category>Budget and Presidential Materials</category>
+ <branch>executive</branch>
+ <dateIngested>2019-06-07</dateIngested>
+</extension>
+<originInfo>
+ <publisher>Office of the Federal Register, National Archives and Records Administration</publisher>
+ <dateIssued encoding="w3cdtf">1983-07-02</dateIssued>
+ <issuance>continuing</issuance>
+ <frequency authority="marcfrequency">semiannual</frequency>
+</originInfo>
+<physicalDescription>
+ <note type="source content type">deposited</note>
+ <digitalOrigin>reformatted digital</digitalOrigin>
+ <extent>886 p.</extent>
+</physicalDescription>
+<classification authority="sudocs">GS 4.113:983/BK.2</classification>
+<identifier type="uri">https://www.govinfo.gov/app/details/PPP-1983-book2</identifier>
+<identifier type="local">P0b002ee1a14b4945</identifier>
+<identifier type="ILS system id">000636663</identifier>
+<recordInfo>
+ <recordContentSource authority="marcorg">DGPO</recordContentSource>
+ <recordCreationDate encoding="w3cdtf">2019-06-07</recordCreationDate>
+ <recordChangeDate encoding="w3cdtf">2019-06-07</recordChangeDate>
+ <recordIdentifier source="DGPO">PPP-1983-book2</recordIdentifier>
+ <recordOrigin>machine generated</recordOrigin>
+ <languageOfCataloging>
+  <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+</languageOfCataloging>
+</recordInfo>
+<accessCondition type="GPO scope determination">fdlp</accessCondition>
+<extension>
+ <docClass>PPP</docClass>
+ <accessId>PPP-1983-book2</accessId>
+ <bookNumber>2</bookNumber>
+ <dateBegin>1983-07-02</dateBegin>
+ <dateEnd>1983-12-31</dateEnd>
+ <isDigitized>true</isDigitized>
+ <president id="RWR" party="R">
+                      <name type="authority-fnf">Ronald W. Reagan</name>
+                      <name type="authority-lnf">Reagan, Ronald W.</name>
+                      <name type="authority-other">Ronald Reagan</name>
+                </president>
+</extension>
+<titleInfo>
+ <title>Public Papers of the Presidents of the United States: Ronald W. Reagan (1983, Book II)</title>
+ <partNumber>2</partNumber>
+</titleInfo>
+<location>
+ <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/PPP-1983-book2</url>
+ <url displayLabel="PDF rendition" access="raw object">https://www.govinfo.gov/content/pkg/PPP-1983-book2/pdf/PPP-1983-book2.pdf</url>
+</location>
+<identifier type="preferred citation">PPP 1983, Book 2</identifier>
+<name type="personal">
+ <namePart>Ronald W. Reagan</namePart>
+ <role>
+  <roleTerm authority="marcrelator" type="text">originator</roleTerm>
+  <roleTerm authority="marcrelator" type="code">org</roleTerm>
+</role>
+ <description>President of the United States</description>
+</name>
+</mods>
